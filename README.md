@@ -11,9 +11,8 @@
 
 **Uma aplicação web interativa que resolve problemas de soma de subconjuntos com temática cyberpunk futurista**
 
-[Demo ao Vivo](#) • [Reportar Bug](https://github.com/luizfxdev/desafio_331/issues) • [Solicitar Feature](https://github.com/luizfxdev/desafio_331/issues)
 
-![Preview](https://via.placeholder.com/800x400/0a0518/fc0fc0?text=Zamla+-+Coordenadas+do+N%C3%BAmero+Sortudo)
+
 
 </div>
 
