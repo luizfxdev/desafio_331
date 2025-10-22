@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coordenadas do Número Sortudo</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Vídeo de fundo -->
+    <video id="background-video" autoplay loop muted playsinline>
+      <source src="assets/background.mp4" type="video/mp4" />
+    </video>
+
+    <!-- Áudio de fundo -->
+    <audio id="theme-audio" loop>
+      <source src="assets/theme.mp3" type="audio/mpeg" />
+    </audio>
+
+    <!-- Controles de Áudio -->
+    <div class="audio-controls">
+      <button id="play-audio" class="audio-btn" title="Tocar música">🎵</button>
+      <button id="pause-audio" class="audio-btn" title="Pausar música">⏸️</button>
+    </div>
+
+    <!-- Container Principal -->
+    <div class="container">
+      <div class="header">
+        <h1>COORDENADAS DO NÚMERO SORTUDO</h1>
+        <p class="subtitle">Sistema de Navegação - Cidade de Neon</p>
+      </div>
+
+      <!-- Input de Entrada -->
+      <div class="input-section">
+        <label for="numbers-input">Lista de Números:</label>
+        <input
+          type="text"
+          id="numbers-input"
+          placeholder="Ex: 1, 2, 2, 5"
+          aria-label="Digite os números separados por vírgula"
+        />
+
+        <label for="k-input">Valor de K (múltiplo):</label>
+        <input type="number" id="k-input" placeholder="Ex: 5" aria-label="Digite o valor de K" />
+      </div>
+
+      <!-- Área dos Botões -->
+      <div class="button-area">
+        <button id="calculate-btn" class="action-btn" tabindex="0">DECIFRAR</button>
+        <button id="return-btn" class="action-btn" tabindex="0">RETORNAR</button>
+      </div>
+      <br />
+      <br />
+      <!-- Seção de Resultado -->
+      <div id="result-section" class="result-section">
+        <h2>RESULTADO DA ANÁLISE</h2>
+        <div id="result-content" class="result-content">
+          <!-- Resultado será inserido aqui -->
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
